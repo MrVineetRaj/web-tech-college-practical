@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: sans-serif;}
+#hr1 {
+    width: 7%;
+    border: 2px solid darkmagenta;
+    margin: 0 0 0 0;}
+header {
+    background-color: darkblue;
+    width: 100vw;}
+nav {
+    text-align: right;}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px 5px 0;}
+nav li a {
+    color: white;
+    text-decoration: none;}
+.Div1 {
+    background: black;
+    background-image: url("./Res/nsut\ green\ view.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100vw;}
+.Div1 .innerDiv1 {
+    width: 85%;
+    margin: 0 0 0 7.5%;
+    display: flex;}
+#nsutLogo {
+    margin: 20px 20px 0 0;}
+#G20 {
+    width: 150px;
+    border-radius: 15px;
+    margin: 20px 70px 0 0;}
+#location {
+    color: white;
+    text-align: right;
+    font-size: 17px;
+    margin: 40px 0 0 0;
+    line-height: 1.2;}
+#locationImg {
+    height: 40px;
+    margin: 40px 0 0 5px;}
+.Div1 .innerDiv2 {
+    width: 85%;
+    margin: 0 0 0 7.5%;
+    display: flex;}
+#movingLine {
+    background-color: wheat;
+    width: 62%;
+    font-size: 17px;}
+#nsutKulgeet {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 10px 0 20px;
+    background: linear-gradient(to bottom, red, white, white);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;}
+#kulgeet {
+    margin: 15px 0 0 0;
+    width: 250px;
+    height: 20px;}
+.Div1 .innerDiv4 {
+    width: 85%;
+    margin: 100px 0 0 7.5%;
+    color: white;
+    text-align: center;
+    padding: 100px;}
+.Div1 .innerDiv4 h1 {
+    font-size: 60px;
+    line-height: 0.1;}
+.Div1 .innerDiv4 p {
+    font-size: 40px;
+    line-height: 0.5;}
+.Div2 {
+    width: 75%;
+    text-align: left;
+    margin: 20px 0 80px 0;}
+#aboutNSUT {
+    font-size: 50px;
+    margin: 20px 0 0px 0;}
+#text {
+    font-size: 16px;
+    margin: 30px 0 40px 0;
+    line-height: 1.5;}
+#knowMore {
+    color: black;
+    text-decoration: none;
+    border: 1.5px solid black;
+    padding: 10px;
+    margin: 20px 0 0 0;}
+#knowMore:hover {
+    color: white;
+    text-decoration: none;
+    border: 1.5px solid black;
+    background-color: black;
+    padding: 10px;}
+.Div3 {
+    background-color: darkblue;
+    width: 100vw;}
+.Div3 .innerDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 100px 0 50px 10%;}
+.Div3 .innerDiv .inner-innerDiv1{
+    width: 350px;
+    background-color: #fff;
+    text-align: center;
+    z-index: 1;
+    box-shadow: 0px 5px 5px rgb(0,0,0,0.4);}
+#inner-innerDiv1{
+    background-color: skyblue;}
+#inner-innerDiv2{
+    background-color: bisque;}
+#inner-innerDiv3{
+    background-color: lightpink;}
+.Div3 .innerDiv .inner-innerDiv2{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    margin: 0 0 0 6%;
+    padding: 20px 0 0 0;
+    text-align: left;}
+#vc {
+    width: 100px;
+    float: left;
+    margin: 20px 10px 10px 10px;}
+.Div4 .innerDiv{
+    width: 70%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: 10.5fr 6.5fr 6.5fr 6.5fr;
+    grid-gap: 50px;
+    padding: 20px 0 0 0;}
+.Div4 .innerDiv .inner-innerDiv{
+    background-color: rgb(174, 247, 247);}
+#pdfLogo{
+    width: 200px;}
+.Div4 .innerDiv .inner-innerDiv p,a{
+    margin: 20px 0 40px 10px;}
+#secondPara{
+    margin-bottom: 80px;}
+#newsPara{
+    margin: 0 0 50px 0px;}
+#latestNews{
+    margin: 10px 0 0 0;
+    background-color: white;}
+#latestNews h1{
+    margin: 50px 0 60px 0px;
+    padding: 60px 0 0 0;
+    border-top:3px solid blue;}
+#viewAllNews{
+    margin: 0px 0 0 0px;
+    background-color: rgb(255, 0, 0);
+    padding:10px 20px 10px 20px;
+    color: white;
+    text-decoration: none;}
+#viewAllNews:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;}
+.Div6 #department{
+    text-align: center;
+    margin: 80px 0 0 0;}
+.Div6 .innerDiv1{
+    display: flex;
+}
+.Div6 .innerDiv1 .inner-innerDiv{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 0 0;
+    text-align: center;
+    padding: 40px;}
+.Div6 .innerDiv1 .inner-innerDiv #departmentHeading{
+    margin: 20px 0 0 0;
+    font-size: 20px;
+    font-weight: 600;}
+.Div6 .innerDiv1 .inner-innerDiv #knowMore{
+    padding: 20px 40px 20px 40px;
+    font-size: 25px;}
+.Div7{
+    background: url("/Res/research-bg.jpg");
+    background-size: cover;}
+.Div7 .innerDiv{
+    margin: 100px 300px 100px 300px;
+    background: rgb(12, 47, 77 , 0.9);
+    padding:50px 100px 100px 100px ;
+    text-align: center;
+    color: #fff;}
+.Div7 .innerDiv h1{
+    color: orange;
+    margin-bottom: 40px;
+    font-size: 40px;}
+.Div7 .innerDiv p{
+    font-size: 20px;
+    line-height: 1.5;}
+footer{
+    background-color: darkblue;
+    color: white;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.inner-Div{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;}
+.inner-Div .inner-innerDiv nav{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* line-height: 2; */}
+.inner-Div .inner-innerDiv nav li{
+    padding: 20px 0;
+    border-bottom: 2px dashed white;
+    width: 200px;}
+.fourthDiv {
+    background-color: rgb(77, 145, 172);
+    text-align: center;}
+.fourthDiv h1 {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;}
+.admissions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(255, 255, 255);
+    width: 60%;
+    margin-left: 20%;
+    grid-gap: 15px;}
+.admissions h3 {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 5px;}
+.admissions div nav li {
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;}

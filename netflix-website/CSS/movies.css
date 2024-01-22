@@ -1,0 +1,16 @@
+*{
+    box-sizing: border;
+}
+
+iframe{
+    width: 100vw;
+    height: 100vh;
+}
+
+#goBack{
+    width: 100vw;
+    background-color: red;
+    color: white;
+    
+}
+

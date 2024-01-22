@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;}
+div{
+    color: black;
+    background: rgb(255,255,255,0.6);
+    padding: 50px;
+    font-size: 40px;
+    border-radius: 20px;}
+select{
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 5px;}
+img{
+    display: none;
+    position: absolute;
+    z-index:-1;
+    height: 100vh;
+    width: 100vw;}
+.image.active{
+    display: block;}

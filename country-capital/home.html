@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body id="body">
+        <img src="Res/worldImage.webp" alt="" id="image0" class="image active">
+        <img src="Res/Delhi.jpg" alt="" id="image1" class="image">
+        <img src="Res/Islamabad.webp" alt="" id="image2" class="image">
+        <img src="Res/Tokyo.jpg" alt="" id="image3" class="image">
+        <img src="Res/Moscow.jpg" alt="" id="image4" class="image">
+        <img src="Res/WashingtonDC.jpg" alt="" id="image5" class="image">
+    <div>
+        <p>Select a country
+            <select name="" id="country" onchange="showCapital()">
+                <option value="">--Select A Country--</option>
+                <option value="India" id="India">India</option>
+                <option value="Pakistan" id="Pakistan">Pakistan</option>
+                <option value="Japan" id="Japan">Japan</option>
+                <option value="Russia" id="Russia">Russia</option>
+                <option value="America" id="America">America</option>
+            </select>
+        </p>
+
+        <p>The Capital is : <span id="capital" ></span></p>
+    </div>
+    <script src="JAVAscript/javascript.js"></script>
+</body>
+
+</html>
